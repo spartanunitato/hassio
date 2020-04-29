@@ -1,8 +1,8 @@
 {
-  "name": "Shairport Sync_forked",
+  "name": "Shairport Sync",
   "version": "0.0.2",
-  "slug": "shairport_sync_forked",
-  "description": "Shairport Sync for Hass.io forked",
+  "slug": "shairport_sync",
+  "description": "Shairport Sync for Hass.io",
   "url": "https://github.com/spartanunitato/addon-shairport-sync",
   "startup": "application",
   "arch": [
@@ -41,6 +41,5 @@
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
-  "image": "maidok/shairport-sync:0.0.1"
+  "image": "maidok/shairport-sync"
 }
-
